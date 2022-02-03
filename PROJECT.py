@@ -11,6 +11,10 @@ fig.show()
 
 print("population mean:" ,statistics.mean(data))
 
+#finding z score
+z_score= (mean_sample1- mean)/std_deviation
+print("The z score is=", z_score)
+
 def random_set_of_mean(counter):
     dataset = []
     for i in range(0, counter):
